@@ -1,0 +1,29 @@
+.section-header {
+    background-color: #282c34;
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-container {
+    background-color: #282c34;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume-text {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.resume-text-header {
+    color: white;
+    font-size: xx-large;
+}

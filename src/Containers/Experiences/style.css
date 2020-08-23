@@ -1,0 +1,6 @@
+.experiences-container {
+    display: flex;
+    height: 82vh;
+    background-color: burlywood;
+    flex-direction: row;
+}
