@@ -14,9 +14,9 @@
     }
     &-text {
         color: white;
+        text-align: center;
         animation: header-text-animation 5s infinite;
         font-size: calc(10px + 2vmin);
-        position: relative;
     }
     &-photo {
         width: 25vw;

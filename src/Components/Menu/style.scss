@@ -1,24 +1,16 @@
 .nav {
   &-container {
-    width: 5%;
+    width: 100%;
     position: fixed;
     display: flex;
     flex-direction: column;
     padding: 5px;
-    background-color: crimson;
+    background-color: var(--color-secondary);
     align-items: center;
-    height: 90%;
+    height: 100%;
     transition: all 1s;
-    opacity: 0;
-    &:hover {
-      width: 20%;
-      opacity: 1;
-    }
-  }
+    opacity: 1;
 
-  &-logo {
-    width: 5vw;
-    height: 5vw;
   }
 
   &-ul {

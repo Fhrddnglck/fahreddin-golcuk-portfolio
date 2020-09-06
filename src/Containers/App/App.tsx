@@ -1,16 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import { Header,Resume,Navbar,Projects,Experiences } from '../index'
+import {Provider} from 'react-redux'
+import {store} from '../../Stores/index'
+import { Header,Resume,Navbar,Projects,Experiences, TopNav,MenuLast } from '../index'
 
 const App = () => {
+
   return (
-      <div className="App">
-        <Navbar/>
-        <Header/>
-        <Resume/>
-        <Projects/>
-        <Experiences/>
-      </div>
+      <Provider store={store}>
+          <div className="App">
+              <MenuLast/>
+              <TopNav/>
+              <Header/>
+              <Resume/>
+              <Projects/>
+              <Experiences/>
+          </div>
+      </Provider>
   );
 }
 

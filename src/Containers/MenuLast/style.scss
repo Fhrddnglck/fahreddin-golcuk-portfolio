@@ -1,0 +1,11 @@
+.menu {
+  &-container {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    transition: all 0.75s ease;
+    flex-direction: column;
+  }
+}

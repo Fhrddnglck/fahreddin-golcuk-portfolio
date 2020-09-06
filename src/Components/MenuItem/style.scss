@@ -1,7 +1,10 @@
 .item {
   &-title {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: lighter;
+  }
+  &-title:hover {
+    color: tomato;
   }
 }

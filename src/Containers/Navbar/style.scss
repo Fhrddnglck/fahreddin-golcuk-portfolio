@@ -16,10 +16,10 @@ a {
     font-size: 1rem;
     text-transform: uppercase;
     transition: color 0.1s, background-color 0.1s;
-    color: #000;
+    color: var(--color-primary);
 
     &:hover {
-        color: tomato;
+        color: var(--color-primary)
     }
 
     &::before {
