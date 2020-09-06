@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c7bd85c913036c3e4c914831780a976",
+    "revision": "e7170a71fa32caf3bf84d1bdfeee4e89",
     "url": "/fahreddin-golcuk-portfolio/index.html"
   },
   {
-    "revision": "f80ed7f8454cf74722da",
-    "url": "/fahreddin-golcuk-portfolio/static/css/main.1b0b1853.chunk.css"
+    "revision": "3f055e6c9b7418f256ac",
+    "url": "/fahreddin-golcuk-portfolio/static/css/main.544113d5.chunk.css"
   },
   {
-    "revision": "ff67d09129d69d50a5c2",
-    "url": "/fahreddin-golcuk-portfolio/static/js/2.6e84930b.chunk.js"
+    "revision": "843141e68a2425dd0ffb",
+    "url": "/fahreddin-golcuk-portfolio/static/js/2.d7ad89d4.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/fahreddin-golcuk-portfolio/static/js/2.6e84930b.chunk.js.LICENSE.txt"
+    "url": "/fahreddin-golcuk-portfolio/static/js/2.d7ad89d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f80ed7f8454cf74722da",
-    "url": "/fahreddin-golcuk-portfolio/static/js/main.5949f055.chunk.js"
+    "revision": "3f055e6c9b7418f256ac",
+    "url": "/fahreddin-golcuk-portfolio/static/js/main.70972e24.chunk.js"
   },
   {
     "revision": "e3d25f309fa2de6091f3",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fahreddin-golcuk-portfolio/static/media/background-header.0602a72d.jpg"
   },
   {
-    "revision": "1cb9eafb21648fb411eb22b64bbcf314",
-    "url": "/fahreddin-golcuk-portfolio/static/media/logo-faho.1cb9eafb.png"
+    "revision": "c353bee95ae7a1153ee8b57cfb26793d",
+    "url": "/fahreddin-golcuk-portfolio/static/media/logo-faho.c353bee9.png"
   },
   {
     "revision": "eccb3c09e835473275669b3d8cc9d93a",
