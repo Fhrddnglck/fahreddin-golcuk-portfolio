@@ -18,7 +18,6 @@ const Menu: React.FunctionComponent<MenuProps> = ({children}): JSX.Element => {
                 <Button onClick={ () => dispatch(toggleMenu())} style={{ alignSelf:'flex-end', marginTop: 16, right: 4 }}>
                     <Close fontSize={"large"}/>
                 </Button>
-                    <Logo/>
                 <ul className='nav-ul'>
                     { children }
                 </ul>
