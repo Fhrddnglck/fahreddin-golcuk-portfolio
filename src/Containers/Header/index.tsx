@@ -6,7 +6,7 @@ const Header = () => {
 
     return(
         <header className="header-container">
-            <p className="header-text">Hello, I'm <strong>Fahreddin Gölcük.</strong>
+            <p className="header-text">Hi !, I'm <strong style={{fontWeight:'bolder'}}>Fahreddin Gölcük.</strong>
                 <br/>
                 I'm Mobile Application Developer.
             </p>
