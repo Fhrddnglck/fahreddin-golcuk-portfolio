@@ -26,8 +26,8 @@ const Resume = () => {
                     <SkillProgress title='Redux' rate={80}/>
                     <SkillProgress title='Unity3D' rate={83}/>
                     <SkillProgress title='Firebase' rate={86}/>
-                    <SkillProgress title='Firebase' rate={86}/>
-                    <SkillProgress title='Firebase' rate={86}/>
+                    <SkillProgress title='Typescript' rate={91}/>
+                    <SkillProgress title='Android' rate={95}/>
                 </div>
             </div>
         </section>
