@@ -1,33 +1,91 @@
 import React from "react";
 import './style.css'
-import { Android } from '@material-ui/icons'
+import { Project } from "@Components/index";
+
+const ProjectText = (text: string) => {
+    return (
+        <div style={{display:'flex',backgroundColor:'white',width:75,height:30,borderRadius:8,alignItems:'center',justifyContent:'center'}}>
+            <p style={{fontWeight:'lighter'}}>{text}</p>
+        </div>
+    )
+}
+
 const Projects = () =>{
     return(
         <section className='projects-container'>
-            <div className='projects-rows'>
-                <div className='projects-rows-front'><img src={require('../../Assets/Common/noomitpad.png')} style={{width:'90%',height:'90%',padding:16}}/></div>
-                <div className='projects-rows-back' style={{backgroundImage: `url(require("../../Assets/Common/noomitpad.png"))`}}>
-                    <p className='projects-text-header'>NOOMITPAD</p>
-                    <p className='projects-text-title'>BOOK RECORDER</p>
-                    <Android onClick={()=> window.open('https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US','_blank')} color="primary"/>
+            <Project
+                image={require('../../Assets/Common/noomitpad.png')}
+                header='NOOMITPAD'
+                linkUrl='https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US'>
+                <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'stretch',width:'100%',height:'100%'}}>
+                    { ProjectText('React Native') }
+                    { ProjectText('Redux') }
+                    { ProjectText('Javascript') }
+                    { ProjectText('Adobe XD') }
+                    { ProjectText('Git') }
+                    { ProjectText('Hooks') }
+                    { ProjectText('Firebase') }
                 </div>
-            </div>
-            <div className='projects-rows'>
-                <div className='projects-rows-front'><img src={require('../../Assets/Common/varco-logo.png')} style={{width:'100%',height:'100%'}}/></div>
-                <div className='projects-rows-back'>
-                    <p className='projects-text-header'>VARCO</p>
-                    <p className='projects-text-title'>FINANCIAL</p>
-                    <Android onClick={()=> window.open('https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US','_blank')} color="primary"/>
+            </Project>
+            <Project
+                image={require('../../Assets/Common/varco-logo.png')}
+                header='VARCO'
+                linkUrl='https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US'>
+                <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'stretch',width:'100%',height:'100%'}}>
+                    { ProjectText('React Native') }
+                    { ProjectText('Redux') }
+                    { ProjectText('Javascript') }
+                    { ProjectText('Adobe XD') }
+                    { ProjectText('Git') }
+                    { ProjectText('Amazon AWS') }
+                    { ProjectText('TypeORM') }
+                    { ProjectText('Node.js') }
+                    { ProjectText('Docker') }
+                    { ProjectText('Typescript') }
                 </div>
-            </div>
-            <div className='projects-rows'>
-                <div className='projects-rows-front'><img src={require('../../Assets/Common/beulogo-kucuk.png')} style={{width:'100%',height:'100%'}}/></div>
-                <div className='projects-rows-back'>
-                    <p className='projects-text-header'>ZBEU MOBIL</p>
-                    <p className='projects-text-title'>EDUCATION</p>
-                    <Android onClick={()=> window.open('https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US','_blank')} color="primary"/>
+            </Project>
+            <Project
+                image={require('../../Assets/Common/beulogo-kucuk.png')}
+                header='ZBEU MOBIL'
+                linkUrl='https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US'>
+                <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'stretch',width:'100%',height:'100%'}}>
+                    { ProjectText('React Native') }
+                    { ProjectText('Redux') }
+                    { ProjectText('Javascript') }
+                    { ProjectText('Adobe XD') }
+                    { ProjectText('Git') }
+                    { ProjectText('Hooks') }
+                    { ProjectText('Firebase') }
                 </div>
-            </div>
+            </Project>
+            <Project
+                image={require('../../Assets/Common/youthmeet.png')}
+                header='YOUTH MEET'
+                linkUrl='https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US'>
+                <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'stretch',width:'100%',height:'100%'}}>
+                    { ProjectText('React Native') }
+                    { ProjectText('Redux') }
+                    { ProjectText('Javascript') }
+                    { ProjectText('Adobe XD') }
+                    { ProjectText('Git') }
+                    { ProjectText('Hooks') }
+                    { ProjectText('Firebase') }
+                </div>
+            </Project>
+            <Project
+                image={require('../../Assets/Common/koysat.png')}
+                header='KOYSAT'
+                linkUrl='https://play.google.com/store/apps/details?id=com.poolapp.noomitpad&hl=en_US'>
+                <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'stretch',width:'100%',height:'100%'}}>
+                    { ProjectText('React Native') }
+                    { ProjectText('Redux') }
+                    { ProjectText('Javascript') }
+                    { ProjectText('Adobe XD') }
+                    { ProjectText('Git') }
+                    { ProjectText('Hooks') }
+                    { ProjectText('Firebase') }
+                </div>
+            </Project>
         </section>
     )
 }

@@ -20,11 +20,15 @@ const Resume = () => {
                     Is dynamic in what I do,
                     I focus on my work and give importance to details
                 </p>
-                <SkillProgress title='React Native' rate={95}/>
-                <SkillProgress title='Typescript' rate={88}/>
-                <SkillProgress title='Redux' rate={80}/>
-                <SkillProgress title='Unity3D' rate={83}/>
-                <SkillProgress title='Firebase' rate={86}/>
+                <div style={{display:'flex',width:'100%',flexDirection:'row',flexWrap:'wrap',justifyContent:'center',alignItems:'center'}}>
+                    <SkillProgress title='React Native' rate={95}/>
+                    <SkillProgress title='Typescript' rate={88}/>
+                    <SkillProgress title='Redux' rate={80}/>
+                    <SkillProgress title='Unity3D' rate={83}/>
+                    <SkillProgress title='Firebase' rate={86}/>
+                    <SkillProgress title='Firebase' rate={86}/>
+                    <SkillProgress title='Firebase' rate={86}/>
+                </div>
             </div>
         </section>
     )
