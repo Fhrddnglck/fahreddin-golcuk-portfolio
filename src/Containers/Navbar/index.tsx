@@ -6,10 +6,10 @@ const Navbar = () =>{
 
     return(
         <Menu>
-            <MenuItem title='Home'/>
-            <MenuItem title='Resume'/>
-            <MenuItem title='Projects'/>
-            <MenuItem title='Experiences'/>
+            <MenuItem scrollValue={0}    title='Home'/>
+            <MenuItem scrollValue={800}  title='Resume'/>
+            <MenuItem scrollValue={1400} title='Projects'/>
+            <MenuItem scrollValue={2000} title='Experiences'/>
         </Menu>
     )
 }
