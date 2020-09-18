@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fahreddin-golcuk-portfolio/precache-manifest.1570ddee7850ca9f135267552695dbf9.js"
+  "/fahreddin-golcuk-portfolio/precache-manifest.8feacba00efac7fdd98a58616d648d88.js"
 );
 
 self.addEventListener('message', (event) => {

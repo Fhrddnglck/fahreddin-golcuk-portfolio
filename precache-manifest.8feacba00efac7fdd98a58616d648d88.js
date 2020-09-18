@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cf014652d390c3cff0dca9618c39b06",
+    "revision": "33022832e848c2eb67aba655f5676e4f",
     "url": "/fahreddin-golcuk-portfolio/index.html"
   },
   {
-    "revision": "8c8bfe7a422d28c9cf28",
-    "url": "/fahreddin-golcuk-portfolio/static/css/main.ff8a2b0a.chunk.css"
+    "revision": "428f8b06f5617c066d01",
+    "url": "/fahreddin-golcuk-portfolio/static/css/main.c7e99c55.chunk.css"
   },
   {
     "revision": "4020d782f5b51bee7563",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fahreddin-golcuk-portfolio/static/js/2.2a930e22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c8bfe7a422d28c9cf28",
+    "revision": "428f8b06f5617c066d01",
     "url": "/fahreddin-golcuk-portfolio/static/js/main.f5f70c52.chunk.js"
   },
   {

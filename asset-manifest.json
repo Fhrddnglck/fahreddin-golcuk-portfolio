@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fahreddin-golcuk-portfolio/static/css/main.ff8a2b0a.chunk.css",
+    "main.css": "/fahreddin-golcuk-portfolio/static/css/main.c7e99c55.chunk.css",
     "main.js": "/fahreddin-golcuk-portfolio/static/js/main.f5f70c52.chunk.js",
     "main.js.map": "/fahreddin-golcuk-portfolio/static/js/main.f5f70c52.chunk.js.map",
     "runtime-main.js": "/fahreddin-golcuk-portfolio/static/js/runtime-main.25d80629.js",
@@ -8,9 +8,9 @@
     "static/js/2.2a930e22.chunk.js": "/fahreddin-golcuk-portfolio/static/js/2.2a930e22.chunk.js",
     "static/js/2.2a930e22.chunk.js.map": "/fahreddin-golcuk-portfolio/static/js/2.2a930e22.chunk.js.map",
     "index.html": "/fahreddin-golcuk-portfolio/index.html",
-    "precache-manifest.1570ddee7850ca9f135267552695dbf9.js": "/fahreddin-golcuk-portfolio/precache-manifest.1570ddee7850ca9f135267552695dbf9.js",
+    "precache-manifest.8feacba00efac7fdd98a58616d648d88.js": "/fahreddin-golcuk-portfolio/precache-manifest.8feacba00efac7fdd98a58616d648d88.js",
     "service-worker.js": "/fahreddin-golcuk-portfolio/service-worker.js",
-    "static/css/main.ff8a2b0a.chunk.css.map": "/fahreddin-golcuk-portfolio/static/css/main.ff8a2b0a.chunk.css.map",
+    "static/css/main.c7e99c55.chunk.css.map": "/fahreddin-golcuk-portfolio/static/css/main.c7e99c55.chunk.css.map",
     "static/js/2.2a930e22.chunk.js.LICENSE.txt": "/fahreddin-golcuk-portfolio/static/js/2.2a930e22.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/fahreddin-golcuk-portfolio/static/media/background-header.0602a72d.jpg",
     "static/media/beulogo-kucuk.png": "/fahreddin-golcuk-portfolio/static/media/beulogo-kucuk.9218bd5e.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.25d80629.js",
     "static/js/2.2a930e22.chunk.js",
-    "static/css/main.ff8a2b0a.chunk.css",
+    "static/css/main.c7e99c55.chunk.css",
     "static/js/main.f5f70c52.chunk.js"
   ]
 }
