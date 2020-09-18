@@ -3,3 +3,6 @@
     --color-secondary: #FFFFFF;
     --color-tertiary: #D51D4F;
 }
+
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
