@@ -1,0 +1,21 @@
+.experiences-container {
+  display: flex;
+  height: 82vh;
+  background-image: url("../../Assets/Common/background-nonlinear.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &-main {
+    width:100%;
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &-header {
+      font-size: xx-large;
+      font-family:-apple-system;
+      font-weight: lighter;
+
+    }
+  }
+}
